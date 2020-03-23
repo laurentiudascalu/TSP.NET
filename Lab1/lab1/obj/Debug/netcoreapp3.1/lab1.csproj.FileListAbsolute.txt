@@ -1,0 +1,11 @@
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.exe
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.deps.json
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.json
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.dev.json
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.dll
+C:\Users\marina\source\repos\lab1\lab1\bin\Debug\netcoreapp3.1\lab1.pdb
+C:\Users\marina\source\repos\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.csprojAssemblyReference.cache
+C:\Users\marina\source\repos\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.AssemblyInfoInputs.cache
+C:\Users\marina\source\repos\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.AssemblyInfo.cs
+C:\Users\marina\source\repos\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.dll
+C:\Users\marina\source\repos\lab1\lab1\obj\Debug\netcoreapp3.1\lab1.pdb
