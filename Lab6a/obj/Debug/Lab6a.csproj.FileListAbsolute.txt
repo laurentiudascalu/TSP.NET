@@ -1,0 +1,9 @@
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.csprojAssemblyReference.cache
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.Properties.Resources.resources
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.csproj.GenerateResource.cache
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\bin\Debug\Lab6a.exe.config
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\bin\Debug\Lab6a.exe
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\bin\Debug\Lab6a.pdb
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.Form1.resources
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.exe
+C:\Users\LauR\Desktop\facultate\TSPNET\Lab6a\obj\Debug\Lab6a.pdb
