@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.23.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ObjectWCF">
+      <HintPath>..\..\P2\ObjectWCF\bin\Debug\ObjectWCF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

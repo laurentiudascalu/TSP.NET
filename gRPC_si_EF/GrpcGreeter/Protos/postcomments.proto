@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeter.Protos";
+
+package greet;
+
+service PostComments {
+}
+
+message Comment {
+    int32 CommentId = 1;
+    string Text = 2;
+    int32 PostPostId = 3;
+}
+message Post {
+    int32 PostId = 1;
+    string Description = 2;
+    string Domain = 3;
+    datetime Date = 4;
+    repeated Comment comments = 5;
+}
+
+message Idint {
+    int32 id = 1;
+}
+
+message Postpost {
+    Post post = 1;
+}
+
+message Commentcomment {
+    Comment comment = 1;
+}
+
+message Varbool {
+    bool ret = 1;
+}
+
+message PostList {
+    repeated Post posts = 1;
+}
+
+service Posts {
+    rpc GetPostById(Idint) returns (Postpost);
+    rpc GetPosts() returns (PostList);
+    rpc AddPost(Postpost) returns (Varbool);
+    rpc UpdatePost(Postpost) returns (Postpost);
+    rpc DeletePost(Idint) returns (Idint);
+}
+
+service Coments {
+    rpc GetCommentById(Idint) returns (Commentcomment);
+    rpc AddComment(Commentcomment) returns (Varbool);
+    rpc UpdateComment(Commentcomment) returns (Commentcomment);
+}
