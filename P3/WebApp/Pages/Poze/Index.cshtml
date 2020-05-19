@@ -1,0 +1,80 @@
+﻿@page
+@model WebApp.Pages.Poze.IndexModel
+@{
+    ViewData["Title"] = "Poze";
+}
+    <h1>Poze</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Cale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Tip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Data_creare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Descriere)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Del)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Persoanes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Locatiis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pozes[0].Evenimentes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Pozes)
+        {
+        <tr style="font-size:small">
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data_creare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descriere)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Del)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Persoanes.Count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Locatiis.Count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Evenimentes.Count)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
